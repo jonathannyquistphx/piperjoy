@@ -7,6 +7,10 @@
     --color-bear-light: #9f8272;
     --color-bear-cream: #f7eee9;
     --color-bear-accent: #a1887f;
+
+    --font-script: 'Great Vibes', cursive;
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Quicksand', sans-serif;
 }
 
 @layer base {
@@ -19,5 +23,13 @@
                 var(--color-bear-tan) 40px,  /* Start of second color */
                 var(--color-bear-tan) 80px   /* End of second color (40px + 40px width) */
         );
+    }
+
+    h1, h2, h3 {
+        @apply font-script
+    }
+
+    h3 {
+        @apply text-4xl text-bear-dark;
     }
 }
