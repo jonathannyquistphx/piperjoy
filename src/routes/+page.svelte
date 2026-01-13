@@ -1,5 +1,9 @@
 <script lang="ts">
-	import { Nav } from '$lib/sections';
+	import { Hero } from '$lib/sections';
 </script>
 
-<Nav />
+<svelte:head>
+	<title>You're Invited! - Piper Joy's Baby Shower</title>
+</svelte:head>
+
+<Hero />
