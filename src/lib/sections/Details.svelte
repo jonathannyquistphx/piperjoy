@@ -45,7 +45,7 @@
 <Container class="mt-20">
 	<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
 		{#each details as item (item.id)}
-			<Card>
+			<Card isAnimated={item.id === 3}>
 				{#snippet icon()}
 					<item.icon />
 				{/snippet}
