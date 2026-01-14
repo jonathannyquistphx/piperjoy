@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Details, Hero } from '$lib/sections';
+	import { Details, Hero, Registry } from '$lib/sections';
 </script>
 
 <svelte:head>
@@ -9,3 +9,5 @@
 <Hero />
 
 <Details />
+
+<Registry />
